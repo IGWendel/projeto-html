@@ -23,6 +23,7 @@ body {
 
 header {
     background-image: url(../img/moon-gaab0d3357_640.jpg);
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
