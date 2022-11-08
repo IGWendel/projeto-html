@@ -1,0 +1,88 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --font01: Arial, Helvetica, sans-serif;
+    --font02: 'Passion One', 'cursive';
+    --font03: 'Sriracha', 'cursive';
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(169, 169, 169, 0.74);
+    font-family: var(--font01);
+}
+
+header {
+    background-image: url(../img/moon-gaab0d3357_640.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    font-family: var(--font02);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+main {
+    padding: 20px;
+     min-width: 300px;
+     max-width: 800px;
+     margin: auto;
+     box-shadow: 0px 0px 10px black;
+     background-color: rgba(255, 255, 255, 0.76);
+}
+
+main a {
+    color: black;
+}
+
+
+img {
+    max-width: 360px;
+    display: block;
+    margin: auto;
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+aside ul {
+    list-style-position: inside;
+    columns: 1;
+}
+
+
+
+footer {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+}
