@@ -60,7 +60,8 @@ main a {
 
 
 img {
-    max-width: 360px;
+    width: 100%;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
